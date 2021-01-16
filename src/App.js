@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './components/clock'
 
-function App() {
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+     
+        <Clock   seconds1 = {props.seconds01} seconds2 = {props.seconds02} minutes1 = {props.minutes01} minutes2 = {props.minutes02} hours1 = {props.hours01} hours2 = {props.hours02} />
+      
+      
+    
   );
 }
 

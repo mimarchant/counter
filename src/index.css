@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fa-clock {
+  
+  font-size: 100px;
+  color: lightcyan;
+}

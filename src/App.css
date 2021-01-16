@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.contenedor {
+  background-color: black;
+}
+
+.colon {
+  font-size: 100px;
+  color: white;
+}
+
+.number {
+  font-size: 100px;
+  color: white;
+}
